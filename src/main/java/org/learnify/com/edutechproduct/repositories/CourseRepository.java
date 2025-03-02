@@ -1,6 +1,6 @@
-package com.course.courseservice.courseservice.repositories;
+package org.learnify.com.edutechproduct.repositories;
 
-import com.course.courseservice.courseservice.models.Course;
+import org.learnify.com.edutechproduct.models.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.course.courseservice.courseservice.exceptions;
+package org.learnify.com.edutechproduct.exceptions;
 
 public class ExceptionMessage {
     public static final String USER_NOT_FOUND = "User with this email does not exist!";

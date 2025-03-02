@@ -1,4 +1,4 @@
-package com.course.courseservice.courseservice.exceptions.customexception;
+package org.learnify.com.edutechproduct.exceptions.customexception;
 
 public class CourseIsAlreadyExistException extends Exception{
     public CourseIsAlreadyExistException(String message){

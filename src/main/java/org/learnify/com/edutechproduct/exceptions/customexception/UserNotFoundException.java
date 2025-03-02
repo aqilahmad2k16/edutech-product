@@ -1,4 +1,4 @@
-package com.course.courseservice.courseservice.exceptions.customexception;
+package org.learnify.com.edutechproduct.exceptions.customexception;
 
 public class UserNotFoundException extends RuntimeException{
     public UserNotFoundException(String message){

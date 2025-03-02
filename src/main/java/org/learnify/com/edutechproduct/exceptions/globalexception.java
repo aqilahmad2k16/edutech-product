@@ -1,9 +1,10 @@
-package com.course.courseservice.courseservice.exceptions;
+package org.learnify.com.edutechproduct.exceptions;
 
-import com.course.courseservice.courseservice.dtos.responsedtos.ExceptionResponseDto;
-import com.course.courseservice.courseservice.exceptions.customexception.CourseIsAlreadyExistException;
-import com.course.courseservice.courseservice.exceptions.customexception.CourseNotFoundException;
-import com.course.courseservice.courseservice.exceptions.customexception.ModuleNotFoundException;
+
+import org.learnify.com.edutechproduct.dtos.responsedtos.ExceptionResponseDto;
+import org.learnify.com.edutechproduct.exceptions.customexception.CourseIsAlreadyExistException;
+import org.learnify.com.edutechproduct.exceptions.customexception.CourseNotFoundException;
+import org.learnify.com.edutechproduct.exceptions.customexception.ModuleNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
