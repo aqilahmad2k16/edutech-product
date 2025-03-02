@@ -1,11 +1,11 @@
-package com.course.courseservice.courseservice.dtos.requestdtos;
+package org.learnify.com.edutechproduct.dtos.requestdtos;
 
-import com.course.courseservice.courseservice.models.Category;
-import com.course.courseservice.courseservice.models.Course;
-import com.course.courseservice.courseservice.models.User;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+import org.learnify.com.edutechproduct.models.Category;
+import org.learnify.com.edutechproduct.models.Course;
+import org.learnify.com.edutechproduct.models.User;
 
 @Data
 public class CourseRequestDto {

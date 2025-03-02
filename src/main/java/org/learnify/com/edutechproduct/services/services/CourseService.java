@@ -1,8 +1,8 @@
-package com.course.courseservice.courseservice.services.services;
+package org.learnify.com.edutechproduct.services.services;
 
-import com.course.courseservice.courseservice.dtos.responsedtos.CourseDtoResponse;
-import com.course.courseservice.courseservice.exceptions.customexception.CourseIsAlreadyExistException;
-import com.course.courseservice.courseservice.models.Course;
+import org.learnify.com.edutechproduct.dtos.responsedtos.CourseDtoResponse;
+import org.learnify.com.edutechproduct.exceptions.customexception.CourseIsAlreadyExistException;
+import org.learnify.com.edutechproduct.models.Course;
 
 import java.util.List;
 

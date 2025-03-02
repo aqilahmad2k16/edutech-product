@@ -1,11 +1,12 @@
-package com.course.courseservice.courseservice.controllers;
+package org.learnify.com.edutechproduct.controllers;
 
-import com.course.courseservice.courseservice.dtos.requestdtos.CourseRequestDto;
-import com.course.courseservice.courseservice.dtos.responsedtos.CourseDtoResponse;
-import com.course.courseservice.courseservice.exceptions.customexception.CourseIsAlreadyExistException;
-import com.course.courseservice.courseservice.models.Course;
-import com.course.courseservice.courseservice.services.services.CourseService;
+
 import jakarta.validation.Valid;
+import org.learnify.com.edutechproduct.dtos.requestdtos.CourseRequestDto;
+import org.learnify.com.edutechproduct.dtos.responsedtos.CourseDtoResponse;
+import org.learnify.com.edutechproduct.exceptions.customexception.CourseIsAlreadyExistException;
+import org.learnify.com.edutechproduct.models.Course;
+import org.learnify.com.edutechproduct.services.services.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,7 +24,7 @@ public class CourseController {
     PostMapping("/course")
      */
     @PostMapping("/")
-    public ResponseEntity<CourseDtoResponse> addNewCourse(@Valid @RequestBody CourseRequestDto courseRequestDto) throws CourseIsAlreadyExistException {
+    public ResponseEntity<CourseDtoResponse> addNewCourse(@Valid @RequestBody CourseRequestDto courseRequestDto) throws CourseIsAlreadyExistException, CourseIsAlreadyExistException {
             Course savedCourse = courseService.addNewCourse(CourseRequestDto.to(courseRequestDto));
             CourseDtoResponse courseDtoResponse = CourseDtoResponse.from(savedCourse);
             return new ResponseEntity<>(courseDtoResponse, HttpStatus.CREATED);

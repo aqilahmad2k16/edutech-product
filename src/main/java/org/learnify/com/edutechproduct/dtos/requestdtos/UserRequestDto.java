@@ -1,8 +1,9 @@
-package com.course.courseservice.courseservice.dtos.requestdtos;
+package org.learnify.com.edutechproduct.dtos.requestdtos;
 
-import com.course.courseservice.courseservice.models.Payment;
-import com.course.courseservice.courseservice.models.UserTypes;
+
 import lombok.Data;
+import org.learnify.com.edutechproduct.models.Payment;
+import org.learnify.com.edutechproduct.models.UserTypes;
 
 @Data
 public class UserRequestDto {

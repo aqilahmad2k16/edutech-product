@@ -1,10 +1,6 @@
-package com.course.courseservice.courseservice.dtos.responsedtos;
-
-import com.course.courseservice.courseservice.models.Category;
-import com.course.courseservice.courseservice.models.Course;
-import com.course.courseservice.courseservice.models.User;
-import jakarta.validation.constraints.NotBlank;
+package org.learnify.com.edutechproduct.dtos.responsedtos;
 import lombok.Data;
+import org.learnify.com.edutechproduct.models.Course;
 
 import java.util.ArrayList;
 import java.util.List;

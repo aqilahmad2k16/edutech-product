@@ -1,4 +1,4 @@
-package com.course.courseservice.courseservice.models;
+package org.learnify.com.edutechproduct.models;
 
 
 import jakarta.persistence.*;

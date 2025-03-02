@@ -1,4 +1,4 @@
-package com.course.courseservice.courseservice.dtos.responsedtos;
+package org.learnify.com.edutechproduct.dtos.responsedtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

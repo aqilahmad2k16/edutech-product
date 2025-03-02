@@ -1,12 +1,12 @@
-package com.course.courseservice.courseservice.services.implentationserviceclass;
+package org.learnify.com.edutechproduct.services.implentationserviceclass;
 
-import com.course.courseservice.courseservice.dtos.responsedtos.CourseDtoResponse;
-import com.course.courseservice.courseservice.exceptions.ExceptionMessage;
-import com.course.courseservice.courseservice.exceptions.customexception.CourseIsAlreadyExistException;
-import com.course.courseservice.courseservice.exceptions.customexception.CourseNotFoundException;
-import com.course.courseservice.courseservice.models.Course;
-import com.course.courseservice.courseservice.repositories.CourseRepository;
-import com.course.courseservice.courseservice.services.services.CourseService;
+import org.learnify.com.edutechproduct.dtos.responsedtos.CourseDtoResponse;
+import org.learnify.com.edutechproduct.exceptions.ExceptionMessage;
+import org.learnify.com.edutechproduct.exceptions.customexception.CourseIsAlreadyExistException;
+import org.learnify.com.edutechproduct.exceptions.customexception.CourseNotFoundException;
+import org.learnify.com.edutechproduct.models.Course;
+import org.learnify.com.edutechproduct.repositories.CourseRepository;
+import org.learnify.com.edutechproduct.services.services.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
